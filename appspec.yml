@@ -13,10 +13,10 @@ permissions:
        - file
 hooks:
    BeforeInstall:
-    - location: scripts/installapache.sh
+    - location: /opt/codedeploy-agent/deployment-root/d49dc135-e0d6-4d5e-8517-33912fd56fc2/d-K4BUUVNUZ/deployment-archive/scripts/installapache.sh
       runas: root
-    - location: scripts/startapache.sh
+    - location: /opt/codedeploy-agent/deployment-root/d49dc135-e0d6-4d5e-8517-33912fd56fc2/d-K4BUUVNUZ/deployment-archive/scripts/startapache.sh
       runas: root
    AfterInstall:
-    - location: scripts/restartapache.sh
+    - location: /opt/codedeploy-agent/deployment-root/d49dc135-e0d6-4d5e-8517-33912fd56fc2/d-K4BUUVNUZ/deployment-archive/scripts/restartapache.sh
       runas: root
